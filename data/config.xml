@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--- Un comentario de una sola línea -->
+<Mundo>
+	<Modelo id ="0" name ="Sol">
+		<Datos>
+			<radioGiro>0</radioGiro>
+			<radioAstro>3</radioAstro>
+			<velocidad>0.1</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>0.1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="1" name ="Mercurio">
+		<Datos>
+			<radioGiro>400</radioGiro>
+			<radioAstro>0.3</radioAstro>
+			<velocidad>0.852</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>0.3</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="2" name ="Venus">
+		<Datos>
+			<radioGiro>650</radioGiro>
+			<radioAstro>0.5</radioAstro>
+			<velocidad>0.589</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>-0.5</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="3" name ="Tierra">
+		<Datos>
+			<radioGiro>1000</radioGiro>
+			<radioAstro>0.7</radioAstro>
+			<velocidad>0.772</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>0.4</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="4" name ="Luna">
+		<Datos>
+			<radioGiro>100</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.1</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="5" name ="Marte">
+		<Datos>
+			<radioGiro>1400</radioGiro>
+			<radioAstro>0.5</radioAstro>
+			<velocidad>0.614</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>0.2</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="6" name ="Phobos">
+		<Datos>
+			<radioGiro>80</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.345</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="7" name ="Deimos">
+		<Datos>
+			<radioGiro>150</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.565</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.5</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="8" name ="Jupiter">
+		<Datos>
+			<radioGiro>2300</radioGiro>
+			<radioAstro>2</radioAstro>
+			<velocidad>0.558</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>0.3</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="9" name ="Io">
+		<Datos>
+			<radioGiro>160</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.398</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="10" name ="Europa">
+		<Datos>
+			<radioGiro>200</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.261</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.2</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="11" name ="Ganimedes">
+		<Datos>
+			<radioGiro>250</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.528</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.3</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="12" name ="Calisto">
+		<Datos>
+			<radioGiro>310</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.662</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="13" name ="Saturno">
+		<Datos>
+			<radioGiro>3400</radioGiro>
+			<radioAstro>1.9</radioAstro>
+			<velocidad>0.468</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>0.5</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="14" name ="Mimas">
+		<Datos>
+			<radioGiro>150</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.548</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.2</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="15" name ="Dione">
+		<Datos>
+			<radioGiro>200</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.468</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="16" name ="Rea">
+		<Datos>
+			<radioGiro>250</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.612</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.3</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="17" name ="Titan">
+		<Datos>
+			<radioGiro>330</radioGiro>
+			<radioAstro>0.3</radioAstro>
+			<velocidad>0.39</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.2</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="18" name ="Urano">
+		<Datos>
+			<radioGiro>4550</radioGiro>
+			<radioAstro>1.2</radioAstro>
+			<velocidad>0.329</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>-0.2</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="19" name ="Ofelia">
+		<Datos>
+			<radioGiro>120</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.371</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="20" name ="Cresida">
+		<Datos>
+			<radioGiro>170</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.624</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.3</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="21" name ="Porcia">
+		<Datos>
+			<radioGiro>220</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.464</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.2</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="22" name ="Neptuno">
+		<Datos>
+			<radioGiro>5450</radioGiro>
+			<radioAstro>1.1</radioAstro>
+			<velocidad>0.265</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>0.6</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="23" name ="Despina">
+		<Datos>
+			<radioGiro>120</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.497</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="24" name ="Galatea">
+		<Datos>
+			<radioGiro>160</radioGiro>
+			<radioAstro>0.1</radioAstro>
+			<velocidad>0.369</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.3</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="25" name ="Proteo">
+		<Datos>
+			<radioGiro>210</radioGiro>
+			<radioAstro>0.2</radioAstro>
+			<velocidad>0.428</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.2</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="26" name ="Pluton">
+		<Datos>
+			<radioGiro>6250</radioGiro>
+			<radioAstro>0.5</radioAstro>
+			<velocidad>0.118</velocidad>
+			<esLuna>0</esLuna>
+			<velocidadRotacion>0.3</velocidadRotacion>
+		</Datos>
+	</Modelo>
+	<Modelo id ="27" name ="Caronte">
+		<Datos>
+			<radioGiro>80</radioGiro>
+			<radioAstro>0.3</radioAstro>
+			<velocidad>0.348</velocidad>
+			<esLuna>1</esLuna>
+			<velocidadRotacion>0.1</velocidadRotacion>
+		</Datos>
+	</Modelo>
+
+
+	<Camaras>
+		<Camara id="0">
+			<DatosCamara>
+				<eyeX>0.0f</eyeX>
+				<eyeY>-180.0f</eyeY>
+				<eyeZ>60.0f</eyeZ>
+				<cenX>0.0f</cenX>
+				<cenY>0.0f</cenY>
+				<cenZ>0.0f</cenZ>
+				<vp_X>0.0f</vp_X>
+				<vp_Y>0.0ff</vp_Y>
+				<vp_Z>1.0f</vp_Z>
+			</DatosCamara>
+			<Frustrum>
+				<alfa>20.f</alfa>
+				<aspect>1.0f</aspect>
+				<near>1.0f</near>
+				<far>10000.0f</far>
+			</Frustrum>
+		</Camara>
+		<Camara id="1">
+			<DatosCamara>
+				<eyeX>0.0f</eyeX>
+				<eyeY>0.0f</eyeY>
+				<eyeZ>220.0f</eyeZ>
+				<cenX>0.0f</cenX>
+				<cenY>0.0f</cenY>
+				<cenZ>0.0f</cenZ>
+				<vp_X>0.0f</vp_X>
+				<vp_Y>1.0f</vp_Y>
+				<vp_Z>1.0f</vp_Z>
+			</DatosCamara>
+			<Frustrum>
+				<alfa>20.f</alfa>
+				<aspect>1.0f</aspect>
+				<near>1.0f</near>
+				<far>10000.0f</far>
+			</Frustrum>
+		</Camara>
+		<Camara id="2">
+			<DatosCamara>
+				<eyeX>0.0f</eyeX>
+				<eyeY>-180.0f</eyeY>
+				<eyeZ>0.0f</eyeZ>
+				<cenX>0.0f</cenX>
+				<cenY>0.0f</cenY>
+				<cenZ>0.0f</cenZ>
+				<vp_X>0.0f</vp_X>
+				<vp_Y>0.0f</vp_Y>
+				<vp_Z>1.0f</vp_Z>
+			</DatosCamara>
+			<Frustrum>
+				<alfa>20.f</alfa>
+				<aspect>1.0f</aspect>
+				<near>1.0f</near>
+				<far>10000.0f</far>
+			</Frustrum>
+		</Camara>
+	</Camaras>
+	
+
+	<Materiales>
+	    <Material id="0" nombre="Sol">
+	        <specular>  <r>1.0</r>  <g>1.0</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.8</r>  <g>0.8</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.6</r>  <g>0.6</g>  <b>0.6</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.6</r>  <g>0.6</g>  <b>0.3</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="1" nombre="Mercurio">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.8</r>  <g>0.2</g>  <b>0.0</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="2" nombre="Venus">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="3" nombre="Tierra">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.0</r>  <g>0.2</g>  <b>0.8</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.0</r>  <g>0.0</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="4" nombre="Luna">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="5" nombre="Marte">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.8</r>  <g>0.2</g>  <b>0.0</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="6" nombre="Phobos">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="7" nombre="Deimos">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.7</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="8" nombre="Jupiter">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.8</r>  <g>0.4</g>  <b>0.0</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.0</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="9" nombre="Io">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.8</r>  <g>0.4</g>  <b>0.0</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.0</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="10" nombre="Europa">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.8</r>  <g>0.4</g>  <b>0.1</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="11" nombre="Ganimedes">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="12" nombre="Calisto">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.7</r>  <g>0.4</g>  <b>0.7</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="13" nombre="Saturno">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.8</r>  <g>0.4</g>  <b>0.1</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="14" nombre="Mimas">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="15" nombre="Dione">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="16" nombre="Rea">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="17" nombre="Titan">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.2</r>  <g>0.8</g>  <b>0.0</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.0</r>  <g>0.1</g>  <b>0.0</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="18" nombre="Urano">
+	        <specular>  <r>1.0</r>  <g>1.0</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.7</r>  <g>0.9</g>  <b>0.7</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="19" nombre="Ofelia">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="20" nombre="Cresida">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="21" nombre="Porcia">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="22" nombre="Neptuno">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.0</r>  <g>0.0</g>  <b>0.9</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.0</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="23" nombre="Despina">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="24" nombre="Galatea">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="25" nombre="Proteo">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="26" nombre="Pluton">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.8</r>  <g>0.6</g>  <b>0.6</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.1</g>  <b>0.1</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	    <Material id="27" nombre="Caronte">
+	        <specular>  <r>1.0</r>  <g>0.8</g>  <b>1.0</b>  <a>1.0</a>    </specular>
+            	<emision>   <r>0.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </emision>
+            	<difuso>    <r>0.8</r>  <g>0.2</g>  <b>0.0</b>  <a>1.0</a>    </difuso>
+            	<ambiente>  <r>0.1</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>    </ambiente>
+	    </Material>
+	</Materiales>
+	
+	
+	<Focos>
+	    <Foco id="0" nombre="Blanco">
+	        <luzdifusa>     <r>1.0</r>  <g>1.0</g>  <b>1.0</b>  <a>1.0</a>      </luzdifusa>
+	        <luzambiente>   <r>0.5</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>      </luzambiente>
+	        <luzspecular>   <r>0.2</r>  <g>0.2</g>  <b>0.2</b>  <a>1.0</a>      </luzspecular>
+            	<posicion>      <x>5.0</x>  <y>5.0</y>  <x>6.0</x>  <a>0.0</a>      </posicion>
+	    </Foco>
+	    <Foco id="1" nombre="Azul">
+	        <luzdifusa>     <r>0.0</r>  <g>0.0</g>  <b>1.0</b>  <a>1.0</a>      </luzdifusa>
+	        <luzambiente>   <r>0.0</r>  <g>0.0</g>  <b>0.5</b>  <a>1.0</a>      </luzambiente>
+	        <luzspecular>   <r>0.2</r>  <g>0.2</g>  <b>0.2</b>  <a>1.0</a>      </luzspecular>
+            	<posicion>      <x>1.0</x>  <y>1.0</y>  <x>8.0</x>  <a>0.0</a>      </posicion>
+	    </Foco>
+	    <Foco id="2" nombre="Rojo">
+	        <luzdifusa>     <r>1.0</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>      </luzdifusa>
+	        <luzambiente>   <r>0.5</r>  <g>0.0</g>  <b>0.0</b>  <a>1.0</a>      </luzambiente>
+	        <luzspecular>   <r>0.2</r>  <g>0.2</g>  <b>0.2</b>  <a>1.0</a>      </luzspecular>
+            	<posicion>      <x>0.0</x>  <y>2.0</y>  <x>6.0</x>  <a>0.0</a>      </posicion>
+	    </Foco>
+	    <Foco id="3" nombre="Verde">
+	        <luzdifusa>     <r>0.0</r>  <g>1.0</g>  <b>0.0</b>  <a>1.0</a>      </luzdifusa>
+	        <luzambiente>   <r>0.0</r>  <g>0.5</g>  <b>0.0</b>  <a>1.0</a>      </luzambiente>
+	        <luzspecular>   <r>0.2</r>  <g>0.2</g>  <b>0.2</b>  <a>1.0</a>      </luzspecular>
+            	<posicion>      <x>8.0</x>  <y>0.0</y>  <x>0.0</x>  <a>0.0</a>      </posicion>
+	    </Foco>
+	    <Foco id="4" nombre="Amarillo">
+	        <luzdifusa>     <r>1.0</r>  <g>1.0</g>  <b>0.0</b>  <a>1.0</a>      </luzdifusa>
+	        <luzambiente>   <r>0.5</r>  <g>0.5</g>  <b>0.0</b>  <a>1.0</a>      </luzambiente>
+	        <luzspecular>   <r>0.2</r>  <g>0.2</g>  <b>0.2</b>  <a>1.0</a>      </luzspecular>
+            	<posicion>      <x>8.0</x>  <y>0.0</y>  <x>0.0</x>  <a>0.0</a>      </posicion>
+	    </Foco>
+	    <Foco id="5" nombre="Turquesa">
+	        <luzdifusa>     <r>0.0</r>  <g>1.0</g>  <b>1.0</b>  <a>1.0</a>      </luzdifusa>
+	        <luzambiente>   <r>0.0</r>  <g>0.5</g>  <b>0.5</b>  <a>1.0</a>      </luzambiente>
+	        <luzspecular>   <r>0.2</r>  <g>0.2</g>  <b>0.2</b>  <a>1.0</a>      </luzspecular>
+            	<posicion>      <x>0.0</x>  <y>8.0</y>  <x>0.0</x>  <a>0.0</a>      </posicion>
+	    </Foco>
+	    <Foco id="6" nombre="Rosa">
+	        <luzdifusa>     <r>1.0</r>  <g>0.0</g>  <b>1.0</b>  <a>1.0</a>      </luzdifusa>
+	        <luzambiente>   <r>1.0</r>  <g>0.0</g>  <b>0.5</b>  <a>1.0</a>      </luzambiente>
+	        <luzspecular>   <r>0.2</r>  <g>0.2</g>  <b>0.2</b>  <a>1.0</a>      </luzspecular>
+            	<posicion>      <x>0.0</x>  <y>0.0</y>  <x>8.0</x>  <a>0.0</a>      </posicion>
+	    </Foco>
+	    <Foco id="7" nombre="Violeta">
+	        <luzdifusa>     <r>0.7</r>  <g>0.4</g>  <b>0.6</b>  <a>1.0</a>      </luzdifusa>
+	        <luzambiente>   <r>0.6</r>  <g>0.2</g>  <b>0.4</b>  <a>1.0</a>      </luzambiente>
+	        <luzspecular>   <r>0.2</r>  <g>0.2</g>  <b>0.2</b>  <a>1.0</a>      </luzspecular>
+            	<posicion>      <x>0.0</x>  <y>0.0</y>  <x>8.0</x>  <a>0.0</a>      </posicion>
+	    </Foco>
+	</Focos>
+</Mundo>
