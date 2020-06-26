@@ -1,6 +1,6 @@
 # [ID]  Imagen Digital
 
-## Contadores
+## Realidad Aumentada Planetario
 
 *Escuela Politécnica de Cáceres - Unex*
 
